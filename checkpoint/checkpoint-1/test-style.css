@@ -1,0 +1,39 @@
+.top {
+	display: block;
+	float: right;
+}
+
+nav.menu {
+	width: 300px;
+	/*100% of viewport height - 121px */
+	min-height: calc(100vh - 121px);
+	background-color: #03a9f4;
+	/* absolute is positioned relative to its parent */
+	float: right;
+	position: absolute;
+	right: -300px;
+	transition: .3s all;
+}
+/* display: block makes all links print vertically */
+/*  Also transforms text to all uppercase */
+nav.menu > a {
+    display: block;
+    padding: 3px;
+    margin: 15px 0 0px 20px;
+    color: #494949;
+    text-transform: uppercase;
+}
+
+/*javascript toggles this class */
+
+.menu_show {
+	right: 0!important;
+}
+
+
+@media screen and (max-width: 360px) {
+	nav.menu {
+		width: 100%;
+		left: -100%; 
+	}
+}

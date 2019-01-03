@@ -158,6 +158,7 @@ footer {
 /*/////// MEDIA ////////*/
 img {
 	border: 20px solid white;
+	margin-top: 4px;
 }
 
 .fixed-ratio-resize { /* basic responsive img */
@@ -181,7 +182,6 @@ img {
 .wrapper {
   width: 800px;
   margin: 0 auto;
-
 }
 
 .pageBorder {

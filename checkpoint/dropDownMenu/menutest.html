@@ -5,26 +5,38 @@
 		<meta name="viewport" content="width=device-width",  initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
 		<title>Mary Lark - Full Stack Engineer</title>
 		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.0/normalize.min.css">
-		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" type="text/css" href="css/responsive.css">
+		<link rel="stylesheet" href="css/testmenu-origStyle.css">
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"></script>
 	</head>
 	
 	<body>
-	
-		<div class="blue-back">
+		 <div class="blue-back"> 
 			<header class="medium-fade shadow">
-				<div class="wrapper">
-					<div class="navbar light-fade">
+				<div class="navbar light-fade">
+					<div class="wrapper">
 						<nav class="menu">
-							<a class="selected" href="index.html">About</a>
-							<a href="resume.html">Resume</a>
-							<a href="work-samples.html">Work Samples</a>
-							<a href="contact.html">Contact</a>
-							<a href="#" class="hamburger-icon" >&#9776;</a>
+							<ul>
+								<li><a class="selected" href="index.html">About</a>
+									<ul class="sub-menu">
+										<li> <a href="recommendations.html">Recommendations</a></li>
+									</ul>
+								</li>
+								<li><a href="resume.html">Resume</a></li>
+								<li><a href="work-samples.html">Work Samples</a>
+									<ul class="sub-menu">
+										<li><a href="creating-a-responsive-site.html">Responsive Site</a></li>
+										<li><a href="StockWatcherAssignment.html">Stock Watcher</a></li>
+										<li><a href="visual-basic.html">Visual Basic</a></li>
+										<li><a href="watcher-ps1.html">Power Shell</a></li>
+									</ul>
+								</li>
+								<li><a href="contact.html">Contact</a></li>
+								<li><a href="#" class="hamburger-icon" >&#9776;</a></li>
+
+							</ul>
 						</nav>
-					</div><!-- .wrapper -->
-				</div><!-- #navbar -->
+					</div><!-- navbar -->
+				</div> <!-- wrapper -->
 				
 				<div class="wrapper">
 					<div id="logo">
@@ -203,7 +215,7 @@
 					</div> <!--recommendation -->
 				</section>
 			</div><!-- .wrapper -->
-		</div><!-- .blue-back -->
+		</div>  <!-- .blue-back -->
 
 		<section id="details" class="medium-fade">
 			<div class="wrapper">
@@ -230,3 +242,4 @@
 		<script type="text/javascript" src="js/menu.js"></script>
 	</body>
 </html>
+

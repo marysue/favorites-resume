@@ -28,6 +28,22 @@ footer {
   margin-left: 2%;
 }
 
+#recommendation  {
+	display: inline-block;	
+	font-size: 12px;
+}
+
+.author {
+	border-bottom: 1px solid #ccc;
+}
+
+.recommend.first
+{
+	border-top: 1px solid #ccc;
+}
+.recommend  {
+	font-style: italic;
+}
 
 
 /*////////// LOGO //////////*/
@@ -61,23 +77,6 @@ footer {
   text-align: center;
 }
 
-#recommendation  {
-	display: inline-block;	
-	font-size: 12px;
-}
-
-.author {
-	border-bottom: 1px solid #ccc;
-}
-
-.recommend.first
-{
-	border-top: 1px solid #ccc;
-}
-.recommend  {
-	font-style: italic;
-}
-
 .navbar nav {
   border-left: 1px solid #ccc;
   overflow: hidden;
@@ -93,7 +92,6 @@ footer {
   text-align: center;
   border-right: 1px solid #ccc;
   text-decoration: none;
-  /*font: 1em "Trebuchet MS", Arial, sans-serif;*/
 }
 
 .navbar nav a.selected {
@@ -118,7 +116,7 @@ footer {
     display: none;
   }
 
-.navbar nav a.menu-icon {
+.navbar nav a.hamburger-icon {
   display: none;
 }
 
